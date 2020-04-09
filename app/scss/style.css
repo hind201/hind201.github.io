@@ -217,7 +217,7 @@
 }
 
 .footer {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .footer .logsante img {
@@ -298,6 +298,12 @@
   font-weight: normal;
 }
 
+.container {
+  background: #1078AD;
+  height: 36px;
+}
+
+/*page aceuil*/
 .propre .tit p {
   text-align: center;
   font-size: 30px;
@@ -362,9 +368,9 @@
   font-size: 25px;
 }
 
-.bacgbleu .btnbleu {
+.btnbleu, .fin {
   height: 50px;
-  width: 200px;
+  width: 250px;
   background-color: #1078AD;
   border: none;
   border-radius: 3px;
@@ -397,5 +403,27 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+/* page 404*/
+.ensemble {
+  text-align: center;
+  margin-top: 90px;
+  -webkit-box-align: 100px;
+      -ms-flex-align: 100px;
+          align-items: 100px;
+}
+
+.ensemble p {
+  margin-top: 50px;
+  font-size: 62px;
+  font-weight: bold;
+  color: #1078AD;
+}
+
+.fin {
+  width: 380px;
+  font-size: 35px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
