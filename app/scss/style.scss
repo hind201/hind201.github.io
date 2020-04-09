@@ -1,0 +1,488 @@
+/* Define standard variables and values for website */
+$padding: 0px;
+$margin:0px;
+$btcolor:#1078AD;
+$textcolor:#7F7F7F;
+$textclr:#000000;
+$whitcolor:#FFFFFF;
+$ceilclr:#D0E5F0;
+$jaclr:#F4CF1B;
+$verclr:#369D53;
+$violclr:#1A519E;
+$fontsize: 16px;
+$margin-top:0px;
+$mrgin-bottom:0px;
+
+* {
+    padding: $padding;
+    margin: $margin;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    font-size: $fontsize;
+
+
+
+
+}
+
+.header1 {
+
+    background-image: url("../images/png/img-1.png");
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+
+    .navbar ul li {
+        display: inline;
+        padding: $padding+20px;
+
+
+        a:hover {
+            color: $btcolor;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: $textclr;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+
+
+
+    }
+}
+
+.test {
+    border-radius: 10px;
+    width: 90px;
+    height: 35px;
+
+
+    border: solid 1px $btcolor;
+    background-color: $ceilclr;
+
+    :hover {}
+
+    img {
+
+        margin-left: 20px;
+
+    }
+
+
+}
+
+
+.header2 {
+    text-align: center;
+    background: url("../images/png/Tracé 11.png");
+    height: 120px;
+    line-height: 30px;
+
+
+    .h {
+        font-size: 17px;
+        font-weight: bold;
+        color: $textclr;
+
+
+    }
+
+
+    p {
+        color: $btcolor;
+        font-size: 15px;
+
+        font-weight: semi bold;
+
+    }
+
+
+
+}
+
+.article {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+
+    .parti1 img {
+        margin-top: $margin-top+50px;
+    }
+
+    .parti2 {
+        margin-top: $margin-top+100px;
+
+        .bleu {
+            color: $btcolor;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .gris {
+            color: $textcolor;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+
+
+    }
+
+}
+
+.boutton {
+    width: 550px;
+    height: 60px;
+    color: $whitcolor;
+    background-color: $btcolor;
+    border: none;
+    border-radius: 5px;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.article2 {
+    margin-top: $margin-top+60px;
+    text-align: center;
+
+    p {
+        font-size: 33px;
+
+        text-align: center;
+        line-height: 28px;
+
+    }
+
+    .titre {
+        color: $btcolor;
+        font-size: 35px;
+        font-weight: bold;
+
+    }
+
+    .image1 {
+        display: flex;
+        justify-content: space-evenly;
+
+
+    }
+}
+
+.article3 {
+    background-color: $btcolor;
+    height: 80vh;
+    line-height: 50px;
+
+
+
+    .title p {
+        text-align: center;
+        color: $ceilclr;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+
+    .mains {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 80px;
+
+
+        .main1 {
+            .texwhit {
+                color: $whitcolor;
+                font-size: 30px;
+                font-weight: semi bold;
+            }
+
+            .span {
+                color: $textclr;
+                font-size: 30px;
+                font-weight: Semi bold;
+            }
+        }
+
+        .main2 {
+            margin-top: $margin-top+50px;
+            text-align: center;
+            line-height: 80px;
+
+            p {
+                color: $jaclr;
+                font-size: 31px;
+                font-weight: bold;
+            }
+
+            button {
+                background-color: $jaclr;
+                border: none;
+                height: 60px;
+                width: 220px;
+                border-radius: 3px;
+                font-size: 30px;
+                font-weight: semi bold;
+                font-family: arial;
+            }
+
+            a {
+                color: $whitcolor;
+                text-decoration-color: $jaclr;
+                font-size: 30px;
+                font-family: arial;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+.article4 {
+
+    text-align: center;
+    background-color: $ceilclr;
+    height: 30vh;
+    line-height: 50px;
+
+
+
+
+    p {
+        color: $btcolor;
+        font-size: 30px;
+        font-weight: bold;
+
+
+
+
+
+    }
+
+
+}
+
+.btn {
+    @extend .boutton;
+}
+
+.footer {
+    margin-top: $margin-top +40px;
+
+    .logsante img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .ft {
+        display: flex;
+        justify-content: space-around;
+
+        .Nv {
+            text-align: center;
+            line-height: 3;
+
+            a {
+                text-decoration: none;
+                color: $textclr;
+                font-size: 24px;
+                font-weight: bold;
+
+            }
+
+            a:hover {
+                color: $btcolor;
+            }
+        }
+
+    }
+
+    button {
+
+        height: 40px;
+        width: 100px;
+        background: $whitcolor;
+
+        border-radius: 5px;
+        border: solid 1px $btcolor;
+
+        img {
+            margin-left: 10px;
+            margin-top: $margin-top+10px;
+        }
+        
+
+    }
+    
+
+    .contact {
+        text-align: center;
+        line-height: 3;
+
+        p {
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+
+        .bl {
+            color: $btcolor;
+            font-size: 27px;
+            font-weight: bold;
+        }
+
+        .vert {
+            color: $verclr;
+            font-size: 27px;
+            font-weight: bold;
+        }
+    }
+
+    .text {
+        margin-top: $margin-top+50px;
+        line-height: 2;
+
+        .grs {
+            color: $textcolor;
+            font-size: 18px;
+            font-weight: normal;
+        }
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*page aceuil*/
+.propre {
+
+    .tit p {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: $btcolor;
+    }
+
+    .photos {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 40px;
+
+        p {
+            font-weight: bold;
+            font-size: 18px;
+            color: $violclr;
+        }
+    }
+
+}
+
+.seul {
+    margin-top: $margin-top+30px;
+
+    text-align: center;
+
+    p {
+        font-weight: bold;
+        font-size: 18px;
+        color: $violclr;
+    }
+
+
+
+}
+
+.bacgbleu {
+    background-color: $ceilclr;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: $margin-top+45px;
+
+    .bacg {
+        text-align: center;
+
+        .p {
+            color: $btcolor;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            color: $violclr;
+            font-weight: bold;
+            font-size: 25px;
+        }
+    }
+
+   
+
+}
+.btnbleu {
+    height: 50px;
+    width: 250px;
+    background-color: $btcolor;
+    border: none;
+    border-radius: 3px;
+    color: $whitcolor;
+    font-weight: bold;
+
+}
+
+.artcle5 {
+    margin-top: $margin-top+100px;
+
+    .tl {
+        color: $btcolor;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 26px;
+        font-weight: bold;
+        color: $violclr;
+        line-height: 45px;
+
+    }
+
+    .ph2 {
+        margin-top: $margin-top+100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* page 404*/
+.ensemble {
+    text-align: center;
+    margin-top: $margin-top+90px;
+    align-items: 100px;
+
+    p {
+        margin-top: $margin-top+50px;
+font-size: 62px;
+font-weight: bold;
+color: $btcolor;
+    }
+
+}
+
+.fin {
+@extend .btnbleu;
+width: 380px;
+font-size: 35px;
+font-weight: bold;
+
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
